@@ -8,12 +8,16 @@ https://github.com/facebookresearch/detectron2
   This assignment is to do instance segmentation. Object detection can detect multiple different kinds of objects in the image and output individual target bounding box at the same time. Semantic Segmentation refers to the object is marked in pixels, or each pixel will  classification results. Instance segmentation combined with the above two methods can distinguish different objects in the image, and they will each have different masks.
 
 ### Installation
+Here just upload main code file. The other file need to git clone detectron2 and will get the other files.
+
+Install step use INSTALL.md.
 
 See [INSTALL.md](INSTALL.md).
 
 ### Train and test to make json file
-
-Run $ python HW4_train.py
+You need to put code of every block on jupyter notebook, and it will better to run code.
+or you can run
+Run $ python HW4_trainandtest.py
 
 #### Setting
 
